@@ -1,0 +1,45 @@
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.grid div{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.cross{
+    background-image: url('images/cross.png');
+    background-size: cover;
+}
+
+.cross_grey{
+    background-image: url('images/cross_grey.png');
+    background-size: cover;
+}
+
+.cross_red{
+    background-image: url('images/cross_red.png');
+    background-size: cover;
+}
+
+.circle{
+    background-image: url('images/circle.png');
+    background-size: cover;
+}
+
+.circle_grey{
+    background-image: url('images/circle_grey.png');
+    background-size: cover;
+}
+
+.circle_red{
+    background-image: url('images/circle_red.png');
+    background-size: cover;
+}
